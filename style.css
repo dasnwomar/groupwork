@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  #0cb27b;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo img {
+    width: 150px;
+    height: 160px;
+    border-radius: 6%;
+    object-fit: cover;
+    border: 3px solid #5d6d8b;
+}
+
+.logo-name {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #16105c;
+}
+
+nav {
+    background-color: #57d9ae;
+    padding: 15px ;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #16105c;
+    color: white;
+    border-radius: 4px;
+}
+
+.main-div {
+    display: flex;
+    height: 350px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f2ededfb;
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: black;
+}
+
+.sidebar ul li {
+    margin: 10px;
+    text-align: left;
+    color: #16105c;
+    display: block;
+    text-decoration: none;
+}
+
+.body {
+    width: 80%;
+    background-color: rgb(152, 217, 241);
+}
+
+.body p {
+    text-align: left;
+    margin: 20px;
+}
+.body h2{
+    text-align: center;
+    color: black;
+    margin: 20px;
+}
+.body h3{
+    text-align: center;
+    color: black;
+}
+.image {
+    border: #5d6d8b;
+    text-align: center;
+    padding: 20px;
+}
+
+.styled-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: #0cb27b;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
